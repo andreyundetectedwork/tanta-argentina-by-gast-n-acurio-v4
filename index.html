@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanta Argentina by Gastón Acurio | Restaurante Peruano en Buenos Aires</title>
+    <meta name="description" content="Tanta Argentina por Gastón Acurio. Cocina peruana criolla, sabores auténticos y ambiente contemporáneo en el corazón de Buenos Aires.">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🇵🇪</text></svg>">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/main.656ce95d.css">
+</head>
+<body class="bg-amber-dark">
+
+    <!-- Top Announcement Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <span class="top-bar-text" data-i18n="topBar">📍 Esmeralda 938, Buenos Aires — Sabor peruano de autor</span>
+            <a href="tel:+541176176632" class="top-bar-phone">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                +54 11 7617-6632
+            </a>
+        </div>
+    </div>
+
+    <!-- Header / Navigation -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#" class="brand-logo">
+                <span class="logo-main">TANTA</span>
+                <span class="logo-sub">Argentina · Gastón Acurio</span>
+            </a>
+
+            <nav class="nav-menu" id="navMenu">
+                <a href="#about" class="nav-link" data-i18n="navAbout">El Lugar</a>
+                <a href="#menu" class="nav-link" data-i18n="navMenu">Carta</a>
+                <a href="#reviews" class="nav-link" data-i18n="navReviews">Reseñas</a>
+                <a href="#location" class="nav-link" data-i18n="navContact">Contacto</a>
+            </nav>
+
+            <div class="header-actions">
+                <!-- Language Switcher -->
+                <div class="lang-switcher">
+                    <button id="lang-es" class="lang-btn active" onclick="setLanguage('es')">ES</button>
+                    <span class="lang-divider">|</span>
+                    <button id="lang-en" class="lang-btn" onclick="setLanguage('en')">EN</button>
+                </div>
+
+                <a href="tel:+541176176632" class="btn btn-primary btn-sm btn-call">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    <span data-i18n="btnCall">Llamar</span>
+                </a>
+
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Abrir menú">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Drawer Overlay -->
+    <div class="nav-overlay" id="navOverlay"></div>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-bg-wrapper">
+            <img src="assets/img_01.jpg" alt="Interior acogedor de Tanta Argentina" class="hero-bg-img">
+            <div class="hero-overlay"></div>
+        </div>
+
+        <div class="container hero-content">
+            <div class="hero-badge">
+                <span class="stars">★★★★★</span>
+                <span class="rating-text">4.5 / 5.0</span>
+                <span class="rating-count" data-i18n="heroReviewsCount">(8.700+ reseñas)</span>
+            </div>
+
+            <h1 class="hero-title" data-i18n="heroTitle">
+                Cocina Peruana Criolla con Sello de Autor
+            </h1>
+
+            <p class="hero-subtitle" data-i18n="heroSubtitle">
+                La calidez de la mesa hogareña peruana en una arquitectura de vanguardia rodeada de vegetación y elegancia en el corazón de Buenos Aires.
+            </p>
+
+            <div class="hero-cta-group">
+                <a href="#menu" class="btn btn-gold btn-lg" data-i18n="btnViewMenu">
+                    Ver la Carta Completa
+                </a>
+                <a href="tel:+541176176632" class="btn btn-outline btn-lg">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    <span data-i18n="btnReserve">Reservar por Teléfono</span>
+                </a>
+            </div>
+
+            <div class="hero-features-strip">
+                <div class="feature-item">
+                    <span class="feature-icon">🌿</span>
+                    <span data-i18n="feat1">Ambiente de Vanguardia</span>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">🍋</span>
+                    <span data-i18n="feat2">Cebiches y Pisco Bar</span>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">👨‍🍳</span>
+                    <span data-i18n="feat3">Firma Gastón Acurio</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visual Atmosphere & Experience Section -->
+    <section class="section section-atmosphere" id="about">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag" data-i18n="atmosTag">Atmósfera Tanta</span>
+                <h2 class="section-title" data-i18n="atmosTitle">Un oasis contemporáneo en el Microcentro</h2>
+                <div class="gold-divider"></div>
+            </div>
+
+            <div class="grid-atmosphere">
+                <div class="atmos-card main-card">
+                    <div class="img-zoom-wrap">
+                        <img src="assets/img_04.jpg" alt="Elegante salón con vegetación tras cristal" loading="lazy">
+                    </div>
+                    <div class="atmos-card-caption">
+                        <h3 data-i18n="card1Title">Naturaleza & Diseño</h3>
+                        <p data-i18n="card1Desc">Un concepto espacial donde los tonos cálidos, la iluminación tenue y jardines vitrina integrados crean un refugio único.</p>
+                    </div>
+                </div>
+
+                <div class="atmos-card">
+                    <div class="img-zoom-wrap">
+                        <img src="assets/img_02.jpg" alt="Cebiche peruano fresco" loading="lazy">
+                    </div>
+                    <div class="atmos-card-caption">
+                        <h3 data-i18n="card2Title">Firmeza del Mar & Ají</h3>
+                        <p data-i18n="card2Desc">Cebiches clásicos, tiraditos y causas preparados al instante con materia prima seleccionada.</p>
+                    </div>
+                </div>
+
+                <div class="atmos-card">
+                    <div class="img-zoom-wrap">
+                        <img src="assets/img_03.jpg" alt="Barra de tragos y coctelería con iluminación cálida" loading="lazy">
+                    </div>
+                    <div class="atmos-card-caption">
+                        <h3 data-i18n="card3Title">Coctelería de Autor & Pisco</h3>
+                        <p data-i18n="card3Desc">Nuestra barra ofrece el Pisco Sour perfecto e infusiones botánicas diseñadas para maridar cada plato.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Menu Section -->
+    <section class="section section-menu" id="menu">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag" data-i18n="menuTag">Gastronomía Peruana</span>
+                <h2 class="section-title" data-i18n="menuTitle">Nuestra Carta</h2>
+                <p class="section-desc" data-i18n="menuSubtitle">Precios expresados en Pesos Argentinos ($ ARS). Todos los platos se preparan al momento.</p>
+                <div class="gold-divider"></div>
+            </div>
+
+            <!-- Menu Category Tabs -->
+            <div class="menu-tabs-wrapper">
+                <div class="menu-tabs" id="menuTabs">
+                    <button class="menu-tab-btn active" data-category="piqueos" data-i18n="catPiqueos">🥟 Los Piqueos</button>
+                    <button class="menu-tab-btn" data-category="peruanos" data-i18n="catPeruanos">🇵🇪 Platos Peruanos</button>
+                    <button class="menu-tab-btn" data-category="tanta" data-i18n="catTanta">🔥 Platos de Tanta</button>
+                    <button class="menu-tab-btn" data-category="pastas" data-i18n="catPastas">🍝 Las Pastas</button>
+                    <button class="menu-tab-btn" data-category="sanguches" data-i18n="catSanguches">🥪 Sánguches & Ensaladas</button>
+                    <button class="menu-tab-btn" data-category="postres" data-i18n="catPostres">🍰 Los Postres</button>
+                </div>
+            </div>
+
+            <!-- Search inside menu -->
+            <div class="menu-search-box">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                <input type="text" id="menuSearchInput" placeholder="Buscar plato..." data-i18n-placeholder="searchPlaceholder">
+            </div>
+
+            <!-- Menu Grid Container -->
+            <div class="menu-grid" id="menuGrid">
+                <!-- Dynamic insertion via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="section section-reviews" id="reviews">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag" data-i18n="revTag">Testimonios Realmente Auténticos</span>
+                <h2 class="section-title" data-i18n="revTitle">Lo que dicen nuestros comensales</h2>
+                <div class="rating-summary-box">
+                    <div class="big-rating">4.5</div>
+                    <div class="rating-stars">★★★★★</div>
+                    <div class="rating-sub" data-i18n="revSub">Basado en más de 8.700 reseñas verificadas</div>
+                </div>
+                <div class="gold-divider"></div>
+            </div>
+
+            <div class="reviews-grid" id="reviewsGrid">
+                <!-- Dynamic insertion via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Operating Hours Section -->
+    <section class="section section-location" id="location">
+        <div class="container">
+            <div class="location-card-wrapper">
+                <div class="location-info">
+                    <span class="section-tag" data-i18n="locTag">Visítanos</span>
+                    <h2 class="location-title" data-i18n="locTitle">Ubicación y Horarios</h2>
+                    <p class="location-address">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        <span>Esmeralda 938, C1057 C1007ABL, Cdad. Autónoma de Buenos Aires, Argentina</span>
+                    </p>
+
+                    <div class="hours-box">
+                        <h3 class="hours-heading" data-i18n="hoursTitle">Horarios de Atención</h3>
+                        <ul class="hours-list" id="hoursList">
+                            <!-- Populated via JS -->
+                        </ul>
+                    </div>
+
+                    <div class="contact-buttons">
+                        <a href="tel:+541176176632" class="btn btn-primary">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                            +54 11 7617-6632
+                        </a>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Esmeralda+938+Buenos+Aires" target="_blank" rel="noopener noreferrer" class="btn btn-outline" data-i18n="btnMaps">
+                            Abrir en Google Maps
+                        </a>
+                    </div>
+                </div>
+
+                <div class="location-visual">
+                    <img src="assets/img_01.jpg" alt="Restaurante Tanta Argentina Interior" loading="lazy">
+                    <div class="visual-badge">
+                        <span class="badge-title">Gastón Acurio</span>
+                        <span class="badge-sub" data-i18n="badgePeruvian">Experiencia Peruana Auténtica</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sticky Mobile Call Bar -->
+    <div class="sticky-call-bar">
+        <a href="tel:+541176176632" class="btn btn-primary btn-block">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            <span data-i18n="stickyCall">Llamar para Reservar (+54 11 7617-6632)</span>
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <span class="logo-main">TANTA</span>
+                <span class="logo-sub">Argentina · Gastón Acurio</span>
+                <p class="footer-desc" data-i18n="footerDesc">
+                    Sabores auténticos peruanos con la calidez del hogar y el diseño contemporáneo en Buenos Aires.
+                </p>
+            </div>
+
+            <div class="footer-contact">
+                <h4 class="footer-heading" data-i18n="footContactTitle">Contacto & Dirección</h4>
+                <p>Esmeralda 938, C1057 C1007ABL, Cdad. Autónoma de Buenos Aires</p>
+                <p><a href="tel:+541176176632" class="footer-phone">+54 11 7617-6632</a></p>
+            </div>
+
+            <div class="footer-social">
+                <h4 class="footer-heading" data-i18n="footSocialTitle">Síguenos</h4>
+                <a href="https://www.instagram.com/tanta_argentina/" target="_blank" rel="noopener noreferrer" class="social-link">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    <span>@tanta_argentina</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <p>&copy; <span id="currentYear"></span> Tanta Argentina by Gastón Acurio. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="js/main.d31b6c63.js"></script>
+</body>
+</html>
